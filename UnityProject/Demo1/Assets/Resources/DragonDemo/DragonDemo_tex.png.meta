@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 18e532dc1f055034a8101ee895d00bf9
+timeCreated: 1512790592
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DragonDemo_tex_0
+    21300002: DragonDemo_tex_1
+    21300004: DragonDemo_tex_2
+    21300006: DragonDemo_tex_3
+    21300008: DragonDemo_tex_4
+    21300010: DragonDemo_tex_5
+    21300012: DragonDemo_tex_6
+    21300014: DragonDemo_tex_7
+    21300016: DragonDemo_tex_8
+    21300018: DragonDemo_tex_9
+    21300020: DragonDemo_tex_10
+    21300022: DragonDemo_tex_11
+    21300024: DragonDemo_tex_12
+    21300026: DragonDemo_tex_13
+    21300028: DragonDemo_tex_14
+    21300030: DragonDemo_tex_15
+    21300032: DragonDemo_tex_16
+    21300034: DragonDemo_tex_17
+    21300036: DragonDemo_tex_18
+    21300038: DragonDemo_tex_19
+    21300040: DragonDemo_tex_20
+    21300042: DragonDemo_tex_21
+    21300044: DragonDemo_tex_22
+    21300046: DragonDemo_tex_23
+    21300048: DragonDemo_tex_24
+    21300050: DragonDemo_tex_25
+    21300052: DragonDemo_tex_26
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DragonDemo_tex_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 324
+        height: 340
+      alignment: 9
+      pivot: {x: 0.9716073, y: 0.16812493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 748
+        width: 272
+        height: 276
+      alignment: 9
+      pivot: {x: 0.9321289, y: 0.63627714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 756
+        width: 241
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 804
+        width: 177
+        height: 219
+      alignment: 9
+      pivot: {x: 0.28750008, y: 0.5322023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_4
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 763
+        width: 105
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_5
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 760
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 687
+        width: 122
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 518
+        width: 303
+        height: 230
+      alignment: 9
+      pivot: {x: 0.86464256, y: 0.09116848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_8
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 560
+        width: 264
+        height: 196
+      alignment: 9
+      pivot: {x: 0.95412815, y: 0.48800597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 498
+        width: 433
+        height: 178
+      alignment: 9
+      pivot: {x: 0.9343244, y: 0.42076024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 376
+        width: 186
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 363
+        width: 107
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_12
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 400
+        width: 201
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_13
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 488
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 92
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6277598, y: 0.90299046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 416
+        width: 108
+        height: 73
+      alignment: 9
+      pivot: {x: 0.58706594, y: 1.0474423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 458
+        width: 67
+        height: 31
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.57583123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_17
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 423
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 95
+        height: 102
+      alignment: 9
+      pivot: {x: 0.30203965, y: 0.86874986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 185
+        height: 64
+      alignment: 9
+      pivot: {x: 0.8557939, y: 0.75711584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_20
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 278
+        width: 118
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_21
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 300
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 282
+        width: 86
+        height: 70
+      alignment: 9
+      pivot: {x: 0.19931883, y: 0.93657315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 274
+        width: 76
+        height: 78
+      alignment: 9
+      pivot: {x: 0.6237253, y: 1.012349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_24
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 186
+        width: 106
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 69
+      alignment: 9
+      pivot: {x: 0.28842986, y: 0.84069204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DragonDemo_tex_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 88
+        height: 113
+      alignment: 9
+      pivot: {x: 0.36643323, y: 0.14634252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
