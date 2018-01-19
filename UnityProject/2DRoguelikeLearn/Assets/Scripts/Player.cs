@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MovingObject
 {
-    private float jumpForce = 2f;
+    private float jumpForce = 200f;
     private float gravity = 5f;
 
 	// Use this for initialization
@@ -41,8 +41,12 @@ public class Player : MovingObject
             //    vertical -= gravity * Time.deltaTime;
             //}
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            base.Jump(jumpForce);											//Play ShotAnimation.													//Prevant change state until Finish this Motion.
+        }
 
-	}
+    }
 
     //AttemptMove overrides the AttemptMove function in the base class MovingObject
     //AttemptMove takes a generic parameter T which for Player will be of the type Wall, it also takes integers for x and y direction to move in.

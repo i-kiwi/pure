@@ -26,7 +26,6 @@ public class MovingObject : MonoBehaviour {
     {
 		Vector2 start = transform.position;
 		Vector2 moveEnd = start + new Vector2(xDir, 0);
-        Vector2 jumpEnd = start + new Vector2(0, yDir);
 
         //boxCollider.enabled = false;
 
@@ -38,9 +37,9 @@ public class MovingObject : MonoBehaviour {
         //{
         //StartCoroutine(SmoothMovement(end));
         SmoothMove(moveEnd);
-        Jump(jumpEnd);
+        //Jump(jumpEnd);
 
-			return true;
+        return true;
 		//}
 		//return false;
 	}
@@ -55,14 +54,19 @@ public class MovingObject : MonoBehaviour {
             rb2D.MovePosition(newPosition);
         }
     }
-    protected void Jump(Vector3 end)
+    protected void Jump(float force)
     {
+        //if (!isJump)
+        //{
+        //    Vector3 newPosition = Vector3.MoveTowards(rb2D.position, end, inverseMoveTime * Time.deltaTime);
+        //    //rb2D.MovePosition();
+
+        //    rb2D.MovePosition(newPosition);
+        //    isJump = true;
+        //}
         if (!isJump)
         {
-            Vector3 newPosition = Vector3.MoveTowards(rb2D.position, end, inverseMoveTime * Time.deltaTime);
-            //rb2D.MovePosition();
-
-            rb2D.MovePosition(newPosition);
+            rb2D.AddForce(new Vector2(0f, force));
             isJump = true;
         }
     }
