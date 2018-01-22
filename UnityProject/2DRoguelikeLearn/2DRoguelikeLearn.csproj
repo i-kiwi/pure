@@ -291,12 +291,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RockMan\RockMan_Controller.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Loader.cs" />
     <Compile Include="Assets\Scripts\MovingObject.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\RockMan_Controller.cs" />
     <Compile Include="Assets\Scripts\Test\ExampleClass.cs" />
     <Compile Include="Assets\Scripts\Utils\CommUtils.cs" />
     <Compile Include="Assets\Scripts\Utils\FileUtils.cs" />
