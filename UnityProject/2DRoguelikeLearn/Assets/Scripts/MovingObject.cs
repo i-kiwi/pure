@@ -20,12 +20,15 @@ public class MovingObject : MonoBehaviour {
 		boxCollider = GetComponent<BoxCollider2D>();
 		rb2D = GetComponent<Rigidbody2D>();
 		inverseMoveTime = 1f / moveTime;
+        transform.rotation = Quaternion.identity;
 	}
 	
     protected bool Move(int xDir, float yDir)
     {
-		Vector2 start = transform.position;
-		Vector2 moveEnd = start + new Vector2(xDir, 0);
+        transform.Translate(new Vector3(xDir * inverseMoveTime * Time.deltaTime, 0, 0));
+        return true;
+		//Vector2 start = transform.position;
+		//Vector2 moveEnd = start + new Vector2(xDir, 0);
 
         //boxCollider.enabled = false;
 
@@ -36,24 +39,23 @@ public class MovingObject : MonoBehaviour {
         //if(hit.transform == null)
         //{
         //StartCoroutine(SmoothMovement(end));
-        SmoothMove(moveEnd);
         //Jump(jumpEnd);
 
-        return true;
 		//}
 		//return false;
 	}
-    protected void SmoothMove(Vector3 end)
-    {
-        float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-        if (sqrRemainingDistance > float.Epsilon)
-        {
-            Vector3 newPosition = Vector3.MoveTowards(rb2D.position, end, inverseMoveTime * Time.deltaTime);
-            //rb2D.MovePosition();
+    //protected void SmoothMove(Vector3 end)
+    //{
+    //    float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
+    //    if (sqrRemainingDistance > float.Epsilon)
+    //    {
+    //        Vector3 newPosition = Vector3.MoveTowards(rb2D.position, end, inverseMoveTime * Time.deltaTime);
+    //        //rb2D.MovePosition();
+    //        transform.Translate(new Vector3(inverseMoveTime * Time.deltaTime, 0, 0));
 
-            rb2D.MovePosition(newPosition);
-        }
-    }
+    //        //rb2D.MovePosition(newPosition);
+    //    }
+    //}
     protected void Jump(float force)
     {
         //if (!isJump)
@@ -66,6 +68,7 @@ public class MovingObject : MonoBehaviour {
         //}
         if (!isJump)
         {
+            //transform.Translate(new Vector3(0, force * Time.deltaTime, 0));
             rb2D.AddForce(new Vector2(0f, force));
             isJump = true;
         }
@@ -77,7 +80,6 @@ public class MovingObject : MonoBehaviour {
 		while(sqrRemainingDistance > float.Epsilon)
 		{
 			Vector3 newPosition = Vector3.MoveTowards(rb2D.position, end, inverseMoveTime * Time.deltaTime);
-            //rb2D.MovePosition();
 			rb2D.MovePosition(newPosition);
 
             sqrRemainingDistance = (transform.position - end).sqrMagnitude;
@@ -86,9 +88,9 @@ public class MovingObject : MonoBehaviour {
 	}
 
     protected virtual void AttempMove (int xDir, float yDir)
-		{
-			bool canMove = Move(xDir, yDir);
-		}
+	{
+		bool canMove = Move(xDir, yDir);
+	}
 
     //protected abstract void OnCantMove <T> (T component)
     //where T : Component;

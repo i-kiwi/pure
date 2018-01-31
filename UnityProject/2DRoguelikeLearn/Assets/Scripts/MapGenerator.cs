@@ -18,22 +18,38 @@ public class MapGenerator : MonoBehaviour
 
     int[,] map;
 
+    public GameObject groundSprite;
+
     void Start()
     {
-        GenerateMap();
+        //GenerateMap();
+        //initMap();
     }
 
     private void Awake()
     {
-        OnDrawGizmos();
+        //OnDrawGizmos();
     }
+
+
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GenerateMap();
+            //GenerateMap();
         }
+    }
+
+    void initMap()
+    {
+        //map = new int[width, height];
+        for (int i = 0; i < 10; i ++)
+        {
+            Vector3 point = new Vector3(i, 0, 0);
+            Instantiate(groundSprite, point, Quaternion.identity);
+        }
+
     }
 
     void GenerateMap()

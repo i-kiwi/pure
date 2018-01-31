@@ -299,6 +299,7 @@
     <Compile Include="Assets\Scripts\MapGenerator.cs" />
     <Compile Include="Assets\Scripts\MovingObject.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\RoadTile.cs" />
     <Compile Include="Assets\Scripts\RockMan_Controller.cs" />
     <Compile Include="Assets\Scripts\Test\ExampleClass.cs" />
     <Compile Include="Assets\Scripts\Utils\CommUtils.cs" />

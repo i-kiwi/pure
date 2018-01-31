@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d8954a0b993c2466aac2b8bef1dee600
+timeCreated: 1517298200
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_Sprite: {instanceID: 0}
+  - m_InstancedGameObject: {instanceID: 0}
+  - tile: {fileID: 8195094279847656390, guid: b67e31637b7a84b058a0978b17d1bdc9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

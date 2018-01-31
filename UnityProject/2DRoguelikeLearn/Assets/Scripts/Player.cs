@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MovingObject
 {
-    private float jumpForce = 200f;
+    private float jumpForce = 500f;
     private float gravity = 5f;
 
 	// Use this for initialization
@@ -26,7 +26,7 @@ public class Player : MovingObject
             {
                 this.transform.localScale = new Vector3(1, 1, 1);
             }
-            else
+            else if (horizontal < 0)
             {
                 this.transform.localScale = new Vector3(-1, 1, 1);
             }
