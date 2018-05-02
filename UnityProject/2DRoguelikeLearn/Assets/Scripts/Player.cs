@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MovingObject
 {
-    private float jumpForce = 500f;
+    private float jumpForce = 50f;
     private float gravity = 5f;
 
 	// Use this for initialization
@@ -34,7 +34,7 @@ public class Player : MovingObject
 
             //Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they encounter one (by attacking it)
             //Pass in horizontal and vertical as parameters to specify the direction to move Player in.
-            AttempMove(horizontal,jump * jumpForce);
+            AttempMove(horizontal,0);
 
             //if (vertical > 0)
             //{
@@ -43,7 +43,7 @@ public class Player : MovingObject
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            base.Jump(jumpForce);											//Play ShotAnimation.													//Prevant change state until Finish this Motion.
+            base.Jump(ref jumpForce);											//Play ShotAnimation.													//Prevant change state until Finish this Motion.
         }
 
     }

@@ -47,7 +47,6 @@ public class BoardManager : MonoBehaviour {
 	void BoardSetup()
 	{
         groundObject = new GameObject();
-        groundObject.tag = "ground";
         System.Random random = new System.Random(Time.time.GetHashCode());
         for (int i = -groundCount.minimum; i < groundCount.minimum; i++)
         {

@@ -56,7 +56,7 @@ public class MovingObject : MonoBehaviour {
     //        //rb2D.MovePosition(newPosition);
     //    }
     //}
-    protected void Jump(float force)
+    protected void Jump(ref float force)
     {
         //if (!isJump)
         //{
@@ -66,10 +66,13 @@ public class MovingObject : MonoBehaviour {
         //    rb2D.MovePosition(newPosition);
         //    isJump = true;
         //}
-        if (!isJump)
+        if (force > 0)
         {
-            //transform.Translate(new Vector3(0, force * Time.deltaTime, 0));
-            rb2D.AddForce(new Vector2(0f, force));
+            force -= Time.deltaTime;
+            //transform.Translate(new Vector3(0, force, 0));
+            Vector2 newPosition = Vector2.MoveTowards(rb2D.position, rb2D.position + new Vector2(0, force), inverseMoveTime * Time.deltaTime);
+            rb2D.MovePosition(newPosition);
+            //rb2D.AddForce(new Vector2(0f, force));
             isJump = true;
         }
     }
