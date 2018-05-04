@@ -22,13 +22,13 @@ public class MapGenerator : MonoBehaviour
 
     void Start()
     {
-        //GenerateMap();
-        //initMap();
+        GenerateMap();
+        initMap();
     }
 
     private void Awake()
     {
-        //OnDrawGizmos();
+        OnDrawGizmos();
     }
 
 
@@ -37,19 +37,30 @@ public class MapGenerator : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //GenerateMap();
+            GenerateMap();
         }
     }
 
     void initMap()
     {
         //map = new int[width, height];
-        for (int i = 0; i < 10; i ++)
+        //for (int i = 0; i < 10; i ++)
+        //{
+        //    Vector3 point = new Vector3(i, 0, 0);
+        //    Instantiate(groundSprite, point, Quaternion.identity);
+        //}
+        for (int i = 0; i < width; i++)
         {
-            Vector3 point = new Vector3(i, 0, 0);
-            Instantiate(groundSprite, point, Quaternion.identity);
-        }
+            for (int j = 0; j < height; j++)
+            {
+                if (map[i, j] == 1)
+                {
+                    Vector3 point = new Vector3(i, j, 0);
+                    Instantiate(groundSprite, point, Quaternion.identity);
+                }
 
+            }
+        }
     }
 
     void GenerateMap()

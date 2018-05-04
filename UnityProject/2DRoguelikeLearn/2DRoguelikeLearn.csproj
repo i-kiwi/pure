@@ -239,6 +239,7 @@
     <Compile Include="Assets\Scripts\RoadTile.cs" />
     <Compile Include="Assets\Scripts\RockMan_Controller.cs" />
     <Compile Include="Assets\Scripts\Test\ExampleClass.cs" />
+    <Compile Include="Assets\Scripts\TileCtrl.cs" />
     <Compile Include="Assets\Scripts\Utils\CommUtils.cs" />
     <Compile Include="Assets\Scripts\Utils\FileUtils.cs" />
     <Compile Include="Assets\Scripts\Utils\HttpDog.cs" />

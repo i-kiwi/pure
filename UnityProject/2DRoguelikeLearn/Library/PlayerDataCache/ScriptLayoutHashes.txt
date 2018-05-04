@@ -175,6 +175,7 @@ db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAsse
 600bf2432747463c84424edccb3c1d05 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Camera2DFollow
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
+4adf5c626f815d548ea18baa6706c6f6 Assembly-CSharp.dll:.TileCtrl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 c3facf795e21fdb17059cceec3ed20cd Assembly-CSharp.dll:.RockMan_Controller
 8910e6417cbc59c7dcfe3a6948b7e99c Assembly-CSharp.dll:.ExampleClass

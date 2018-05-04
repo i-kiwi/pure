@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 55cd5cb9b54637b49b56207c99fa6294
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Demo.unity
     guid: 5ae00c4dc8f839746bba67779dfc4776
+  - enabled: 1
+    path: Assets/Scenes/RandomTiles.unity
+    guid: b91306c7abf686643b389f941a207cfd

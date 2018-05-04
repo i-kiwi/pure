@@ -11,6 +11,7 @@ public class LittleManCtrl : MonoBehaviour {
     // Use this for initialization
     void Start() {
         this.animator = this.GetComponent<Animator>();
+        Debug.Log((byte)3);
     }
 
     // Update is called once per frame
