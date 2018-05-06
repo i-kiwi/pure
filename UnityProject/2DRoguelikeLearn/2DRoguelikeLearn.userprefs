@@ -1,17 +1,10 @@
 ﻿<Properties StartupConfiguration="{C87A6CEF-3F58-A9F0-037A-8E61845EABF1}|">
   <MonoDevelop.Ide.ItemProperties.2DRoguelikeLearn PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MovingObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TileCtrl2.cs">
     <Files>
-      <File FileName="Assets/Scripts/BoardManager.cs" Line="57" Column="28" />
-      <File FileName="Assets/Scripts/Utils/HttpDog.cs" Line="22" Column="30" />
-      <File FileName="Assets/Scripts/Loader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="26" Column="19" />
-      <File FileName="Assets/Scripts/Player.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/MovingObject.cs" Line="29" Column="21" />
-      <File FileName="Assets/Scripts/Health.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/RockMan_Controller.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Bullet.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/RoadTile.cs" Line="17" Column="10" />
+      <File FileName="Assets/Scripts/MapGenerator.cs" Line="35" Column="5" />
+      <File FileName="Assets/Scripts/TileCtrl.cs" Line="68" Column="1" />
+      <File FileName="Assets/Scripts/TileCtrl2.cs" Line="20" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

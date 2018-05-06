@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{34532457-BCE4-3CB7-797A-60EAD226DDF9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Demo/Scripts/LittleManCtrl.cs">
+    <Files>
+      <File FileName="Assets/Commander/Script/CommanderKeen.cs" Line="13" Column="2" />
+      <File FileName="Assets/RockMan/Script/RockMan_Controller.cs" Line="31" Column="30" />
+      <File FileName="Assets/Demo/Scripts/LittleManCtrl.cs" Line="39" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UnityTaiwan PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>

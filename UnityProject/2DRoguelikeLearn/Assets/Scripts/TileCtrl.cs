@@ -34,11 +34,11 @@ public class TileCtrl : MonoBehaviour {
 
     private void mapInit()
     {
-        //if (useRandomSeed)
-        //{
-        //    seed = Time.time.ToString();
-        //}
-        //System.Random random = new System.Random(seed.GetHashCode());
+        if (useRandomSeed)
+        {
+            seed = Time.time.ToString();
+        }
+        System.Random random = new System.Random(seed.GetHashCode());
         for (int x = 0; x < mapWidth; x++)
         {
             for (int y = 0; y < mapHeight; y++)
@@ -46,7 +46,7 @@ public class TileCtrl : MonoBehaviour {
                 if (x * y == 0 || x == mapWidth - 1 || y == mapHeight - 1)
                     mapArray[x, y] = 1;
                 else
-                    mapArray[x, y] = Random.Range(0, 100) < fillprob ? 1 : 0; // random.Next(0, 100) < fillprob ? 1 : 0;
+                    mapArray[x, y] = random.Next(0, 100) < fillprob ? 1 : 0;
             }
         }
     }
@@ -59,18 +59,23 @@ public class TileCtrl : MonoBehaviour {
             {
                 int firstLayerCount = getNearWallCount(i, j, 1);
                 int secondLayerCount = getNearWallCount(i, j, 2);
-                //if (mapArray[i, j] == 1)
-                //    tempMapArray[i, j] = (firstLayerCount >= 4) ? 1 : 0;
-                //else
-                //    tempMapArray[i, j] = (firstLayerCount >= 5) ? 1 : 0;
+
+                if (firstLayerCount > 4)
+                    mapArray[i, j] = 1;
+                else if (firstLayerCount < 4)
+                    mapArray[i, j] = 0;
+
+
                 int flag = mapArray[i, j] == 1 ? 4 : 5;
+                tempMapArray[i, j] = (firstLayerCount >= flag) ? 1 : 0;
+                mapArray[i, j] = (firstLayerCount > 4) ? 1 : (firstLayerCount < 4) ? 0 : mapArray[i, j];
                 if (firstSmooth > 0)
                 {
-                    tempMapArray[i, j] = firstLayerCount >= flag || secondLayerCount <= 2 ? 1 : 0;
+                    mapArray[i, j] = firstLayerCount >= flag || secondLayerCount <= 2 ? 1 : 0;
                 }
                 else if (secondSmooth > 0)
                 {
-                    tempMapArray[i, j] = firstLayerCount >= flag ? 1 : 0 ;
+                    mapArray[i, j] = firstLayerCount >= flag ? 1 : 0 ;
                 }
                 else
                 {
@@ -78,7 +83,7 @@ public class TileCtrl : MonoBehaviour {
                 }
             }
         }
-        mapArray = tempMapArray;
+        //mapArray = tempMapArray;
 
     }
 
@@ -128,10 +133,7 @@ public class TileCtrl : MonoBehaviour {
         {
             for (int y = 0; y < mapHeight; y++)
             {
-                if (mapArray[x, y] == 1)
-                    Instantiate(wall, new Vector3(x, y, 0), Quaternion.identity, background.transform);
-                else
-                    Instantiate(floor, new Vector3(x, y, 0), Quaternion.identity, background.transform);
+                Instantiate(mapArray[x, y] == 1 ? wall : floor, new Vector3(x, y, 0), Quaternion.identity, background.transform);
             }
         }
     }
@@ -140,14 +142,17 @@ public class TileCtrl : MonoBehaviour {
     void Update () {
 		if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            // smooth
-            smoothMap();
-            if (firstSmooth > 0)
-                firstSmooth--;
-            else if (secondSmooth > 0)
-                secondSmooth--;
-            else
-                Debug.Log("over");
+            for (int i = 0; i < 25; i++)
+            {
+                smoothMap();
+                if (firstSmooth > 0)
+                    firstSmooth--;
+                else if (secondSmooth > 0)
+                    secondSmooth--;
+                else
+                    break;
+            }
+
             foreach (Transform tran in background.transform)
             {
                 Destroy(tran.gameObject);

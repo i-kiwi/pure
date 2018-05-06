@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: debf6e22a3517cd45b6e23f52ff687b5
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ironman_Map_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 12
+        width: 69
+        height: 29
+      alignment: 9
+      pivot: {x: 0.7143392, y: 0.789116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 12
+        width: 77
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6858453, y: 0.79765224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 45
+        width: 52
+        height: 115
+      alignment: 9
+      pivot: {x: 0.54164183, y: 0.7806707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 59
+        height: 116
+      alignment: 9
+      pivot: {x: 0.6116421, y: 0.7208273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 157
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.61611754, y: 0.74119407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 167
+        width: 45
+        height: 52
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 178
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 218
+        width: 51
+        height: 122
+      alignment: 9
+      pivot: {x: 0.53500426, y: 0.7863797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 227
+        width: 53
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5148152, y: 0.78320026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 225
+        width: 107
+        height: 115
+      alignment: 9
+      pivot: {x: 0.51645166, y: 0.117318325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ironman_Map_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 350
+        width: 171
+        height: 176
+      alignment: 9
+      pivot: {x: 0.57133704, y: 0.28505448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
