@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - backgroun
+  - grid
+  - scene
+  - enemy
+  - player
+  - weapon
+  - buttle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: grid
+    uniqueID: 261479703
+    locked: 0
+  - name: scene
+    uniqueID: 290059349
+    locked: 0
+  - name: enemy
+    uniqueID: 4151267489
+    locked: 0
+  - name: player
+    uniqueID: 185891279
+    locked: 0
+  - name: weapon
+    uniqueID: 349375057
+    locked: 0
+  - name: buttle
+    uniqueID: 2985925321
+    locked: 0

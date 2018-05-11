@@ -247,6 +247,7 @@
     <Compile Include="Assets\Scripts\TileScript\MapGenerator.cs" />
     <Compile Include="Assets\Scripts\TileScript\RuleTileDetail.cs" />
     <Compile Include="Assets\Scripts\TileScript\TileDemo.cs" />
+    <Compile Include="Assets\Scripts\TT.cs" />
     <Compile Include="Assets\Scripts\Utils\CommUtils.cs" />
     <Compile Include="Assets\Scripts\Utils\FileUtils.cs" />
     <Compile Include="Assets\Scripts\Utils\HttpDog.cs" />

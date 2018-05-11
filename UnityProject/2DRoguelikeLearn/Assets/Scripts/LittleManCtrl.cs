@@ -9,6 +9,10 @@ public class LittleManCtrl : MonoBehaviour {
     Animator animator;
     bool canMove;
 
+    //public GameObject muzzle;
+    //public GameObject buttleSprite;
+    //public float speed = 10;
+
     // Use this for initialization
     void Start() {
         this.animator = this.GetComponent<Animator>();
@@ -36,14 +40,25 @@ public class LittleManCtrl : MonoBehaviour {
                 animator.SetBool("isMove", false);
             }
         }
+
+
+        //if (Input.GetKeyUp(KeyCode.Mouse0) == true)
+        //{
+        //    if (buttleSprite != null)
+        //    {
+        //        GameObject buttle = Instantiate(buttleSprite, muzzle.transform.position, Quaternion.identity, muzzle.transform);
+        //        buttle.transform.eulerAngles = new Vector3(0, 0, -90);
+        //        buttle.GetComponent<Rigidbody2D>().AddForce(new Vector2(15, 0));
+        //    }
+        //}
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("[tag]" + collision.tag);
-        if (collision.tag == "wall")
-        {
-            canMove = false;
-        }
+        //Debug.Log("[tag]" + collision.tag);
+        //if (collision.tag == "wall")
+        //{
+        //    canMove = false;
+        //}
     }
 }
